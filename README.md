@@ -1,5 +1,10 @@
 # FIRM-COV
 FIRM-COV is a hardware-agnostic firmware fuzzing framework targeting Linux-based firmware. It is designed to detect software bugs and vulnerabilities in user-space applications (such as httpd, CGI-BIN, etc.) through the process of firmware rehosting, which transfers the firmware into an emulation environment for fuzzing. FIRM-COV utilizes a dictionary generation algorithm to ensure high code coverage and generate structured inputs tailored for applications. Additionally, it employs hardware abstraction techniques to prevent direct hardware access by user-space applications.
+
+You can find the announcement about the vulnerability discovered by our system at the link below.
+https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10341
+
+
 # Publication
 [![firmcov](https://github.com/jyaniii/FIRM-COV/assets/76595831/310e4fb3-770d-4099-be91-d2172cccfb1c)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9489311)
 
